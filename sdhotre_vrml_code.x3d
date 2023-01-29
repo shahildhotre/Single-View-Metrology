@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="project1.x3d" />
+		<meta name="generator" content="Blender 3.3.0" />
+	</head>
+	<Scene>
+		<NavigationInfo headlight="false"
+		                visibilityLimit="0.0"
+		                type='"EXAMINE", "ANY"'
+		                avatarSize="0.25, 1.75, 0.75"
+		                />
+		<Background DEF="WO_World"
+		            groundColor="0.051 0.051 0.051"
+		            skyColor="0.051 0.051 0.051"
+		            />
+		<Transform DEF="Light_TRANSFORM"
+		           translation="-4.076245 5.903862 1.005454"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="-0.498084 -0.762016 -0.413815 1.513875"
+		           >
+			<PointLight DEF="LA_Light"
+			            ambientIntensity="0.0000"
+			            color="1.0000 1.0000 1.0000"
+			            intensity="1.0000"
+			            radius="30.0000" 
+			            location="-0.0000 -0.0000 0.0000"
+			            />
+		</Transform>
+		<Transform DEF="Camera_TRANSFORM"
+		           translation="-7.358891 4.958309 -6.925791"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="-0.098233 -0.968789 -0.227591 2.349487"
+		           >
+			<Viewpoint DEF="CA_Camera"
+			           centerOfRotation="0 0 0"
+			           position="-0.00 -0.00 0.00"
+			           orientation="-0.00 -0.47 -0.88 0.00"
+			           fieldOfView="0.691"
+			           />
+		</Transform>
+		<Transform DEF="xy_cropped_TRANSFORM"
+		           translation="-0.700000 -0.500000 1.029999"
+		           scale="1.290000 1.410000 1.040000"
+		           rotation="-0.577350 -0.577350 -0.577350 2.094395"
+		           >
+			<Transform DEF="xy_cropped_ifs_TRANSFORM"
+			           translation="-0.000000 -0.000000 -0.000000"
+			           scale="1.000000 1.000000 1.000000"
+			           rotation="0.000000 0.000000 0.000000 0.000000"
+			           >
+				<Group DEF="group_ME_xy_cropped_001">
+					<Shape>
+						<Appearance>
+							<Material DEF="MA_xy_cropped"
+							          diffuseColor="0.800 0.800 0.800"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.000"
+							          shininess="0.500"
+							          transparency="0.0"
+							          />
+						</Appearance>
+						<IndexedFaceSet solid="false"
+						                texCoordIndex="0 1 2 3 -1 "
+						                coordIndex="0 1 3 2 -1 "
+						                >
+							<Coordinate DEF="coords_ME_xy_cropped_001"
+							            point="-0.405028 -0.500000 0.000000 0.405028 -0.500000 0.000000 -0.405028 0.500000 0.000000 0.405028 0.500000 0.000000 "
+							            />
+							<TextureCoordinate point="0.0000 0.0000 1.0000 0.0000 1.0000 1.0000 0.0000 1.0000 " />
+						</IndexedFaceSet>
+					</Shape>
+				</Group>
+			</Transform>
+		</Transform>
+		<Transform DEF="xz_cropped_TRANSFORM"
+		           translation="0.000000 0.000000 1.039643"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="0.000000 -1.000000 0.000000 1.570796"
+		           >
+			<Transform DEF="xz_cropped_ifs_TRANSFORM"
+			           translation="0.000000 0.000000 0.000000"
+			           scale="1.000000 1.000000 1.000000"
+			           rotation="0.000000 0.000000 0.000000 0.000000"
+			           >
+				<Group DEF="group_ME_xz_cropped_001">
+					<Shape>
+						<Appearance>
+							<Material DEF="MA_xz_cropped"
+							          diffuseColor="0.800 0.800 0.800"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.000"
+							          shininess="0.500"
+							          transparency="0.0"
+							          />
+						</Appearance>
+						<IndexedFaceSet solid="false"
+						                texCoordIndex="0 1 2 3 -1 "
+						                coordIndex="0 1 3 2 -1 "
+						                >
+							<Coordinate DEF="coords_ME_xz_cropped_001"
+							            point="-0.534615 -0.500000 0.000000 0.534615 -0.500000 0.000000 -0.534615 0.500000 0.000000 0.534615 0.500000 0.000000 "
+							            />
+							<TextureCoordinate point="0.0000 0.0000 1.0000 0.0000 1.0000 1.0000 0.0000 1.0000 " />
+						</IndexedFaceSet>
+					</Shape>
+				</Group>
+			</Transform>
+		</Transform>
+		<Transform DEF="yz_cropped_TRANSFORM"
+		           translation="-0.710000 0.000000 0.510129"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="0.000000 1.000000 -0.000000 3.141593"
+		           >
+			<Transform DEF="yz_cropped_ifs_TRANSFORM"
+			           translation="0.000000 0.000000 0.000000"
+			           scale="1.000000 1.000000 1.000000"
+			           rotation="0.000000 1.000000 0.000000 0.000000"
+			           >
+				<Group DEF="group_ME_yz_cropped">
+					<Shape>
+						<Appearance>
+							<Material DEF="MA_yz_cropped"
+							          diffuseColor="0.800 0.800 0.800"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.000"
+							          shininess="0.500"
+							          transparency="0.0"
+							          />
+						</Appearance>
+						<IndexedFaceSet solid="false"
+						                texCoordIndex="0 1 2 3 -1 "
+						                coordIndex="0 1 3 2 -1 "
+						                >
+							<Coordinate DEF="coords_ME_yz_cropped"
+							            point="-0.725869 -0.500000 0.000000 0.725869 -0.500000 0.000000 -0.725869 0.500000 0.000000 0.725869 0.500000 0.000000 "
+							            />
+							<TextureCoordinate point="0.0000 0.0000 1.0000 0.0000 1.0000 1.0000 0.0000 1.0000 " />
+						</IndexedFaceSet>
+					</Shape>
+				</Group>
+			</Transform>
+		</Transform>
+	</Scene>
+</X3D>
