@@ -14,5 +14,3 @@ Reconstruct 3D image from 2D-3 point perspective image of an object.
   - To create texture maps
 ### Blender:
   - Reconstruct object using cropped images of texture maps
- 
- 
